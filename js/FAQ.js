@@ -49,6 +49,12 @@ card1Btn.addEventListener('click',()=>{
     $(card3).hide();
     $(card2).hide();
     $(card1).show();
+    card1Btn.classList.add("activebtn")
+    card2Btn.classList.remove("activebtn")
+    card3Btn.classList.remove("activebtn")
+    card4Btn.classList.remove("activebtn")
+    card5Btn.classList.remove("activebtn")
+    card6Btn.classList.remove("activebtn")
 })
 card2Btn.addEventListener('click',()=>{
     $(card6).hide();
@@ -57,6 +63,12 @@ card2Btn.addEventListener('click',()=>{
     $(card3).hide();
     $(card2).show();
     $(card1).hide();
+    card1Btn.classList.remove("activebtn")
+    card2Btn.classList.add("activebtn")
+    card3Btn.classList.remove("activebtn")
+    card4Btn.classList.remove("activebtn")
+    card5Btn.classList.remove("activebtn")
+    card6Btn.classList.remove("activebtn")
 })
 card3Btn.addEventListener('click',()=>{
     $(card6).hide();
@@ -65,6 +77,12 @@ card3Btn.addEventListener('click',()=>{
     $(card3).show();
     $(card2).hide();
     $(card1).hide();
+    card1Btn.classList.remove("activebtn")
+    card2Btn.classList.remove("activebtn")
+    card3Btn.classList.add("activebtn")
+    card4Btn.classList.remove("activebtn")
+    card5Btn.classList.remove("activebtn")
+    card6Btn.classList.remove("activebtn")
 })
 card4Btn.addEventListener('click',()=>{
     $(card6).hide();
@@ -73,6 +91,12 @@ card4Btn.addEventListener('click',()=>{
     $(card3).hide();
     $(card2).hide();
     $(card1).hide();
+    card1Btn.classList.remove("activebtn")
+    card2Btn.classList.remove("activebtn")
+    card3Btn.classList.remove("activebtn")
+    card4Btn.classList.add("activebtn")
+    card5Btn.classList.remove("activebtn")
+    card6Btn.classList.remove("activebtn")
 })
 card5Btn.addEventListener('click',()=>{
     $(card6).hide();
@@ -81,6 +105,12 @@ card5Btn.addEventListener('click',()=>{
     $(card3).hide();
     $(card2).hide();
     $(card1).hide();
+    card1Btn.classList.remove("activebtn")
+    card2Btn.classList.remove("activebtn")
+    card3Btn.classList.remove("activebtn")
+    card4Btn.classList.remove("activebtn")
+    card5Btn.classList.add("activebtn")
+    card6Btn.classList.remove("activebtn")
 })
 card6Btn.addEventListener('click',()=>{
     $(card6).show();
@@ -89,13 +119,11 @@ card6Btn.addEventListener('click',()=>{
     $(card3).hide();
     $(card2).hide();
     $(card1).hide();
-})
-card1Btn.addEventListener('click',()=>{
-    $(card6).show();
-    $(card5).hide();
-    $(card4).hide();
-    $(card3).hide();
-    $(card2).hide();
-    $(card1).hide();
+    card1Btn.classList.remove("activebtn")
+    card2Btn.classList.remove("activebtn")
+    card3Btn.classList.remove("activebtn")
+    card4Btn.classList.remove("activebtn")
+    card5Btn.classList.remove("activebtn")
+    card6Btn.classList.add("activebtn")
 })
 //=============================================

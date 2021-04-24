@@ -21,6 +21,10 @@ display: none;
     color:  #0275d8 !important;
     transition: 500ms;
 }
+.activebtn{
+    border: solid 2px #2a81ea;
+    color: #2a81ea;
+}
 .trans{
     background-color: rgba(0, 0, 0, 0) !important;
     transition: 1s;
