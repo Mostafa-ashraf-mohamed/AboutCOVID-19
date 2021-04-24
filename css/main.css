@@ -22,8 +22,8 @@ display: none;
     transition: 500ms;
 }
 .activebtn{
-    border: solid 2px #2a81ea;
-    color: #2a81ea;
+    border: solid 2px #2a81ea !important;
+    color: #2a81ea !important;
 }
 .trans{
     background-color: rgba(0, 0, 0, 0) !important;
